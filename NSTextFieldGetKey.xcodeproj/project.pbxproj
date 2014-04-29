@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30CC02EA190F981500549A3F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CC02E9190F981500549A3F /* Cocoa.framework */; };
+		30CC02F4190F981500549A3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30CC02F2190F981500549A3F /* InfoPlist.strings */; };
+		30CC02F6190F981500549A3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CC02F5190F981500549A3F /* main.m */; };
+		30CC02FA190F981500549A3F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 30CC02F8190F981500549A3F /* Credits.rtf */; };
+		30CC02FD190F981500549A3F /* CDYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CC02FC190F981500549A3F /* CDYAppDelegate.m */; };
+		30CC0300190F981500549A3F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30CC02FE190F981500549A3F /* MainMenu.xib */; };
+		30CC0302190F981500549A3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CC0301190F981500549A3F /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30CC02E6190F981500549A3F /* NSTextFieldGetKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTextFieldGetKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CC02E9190F981500549A3F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		30CC02EC190F981500549A3F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		30CC02ED190F981500549A3F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		30CC02EE190F981500549A3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30CC02F1190F981500549A3F /* NSTextFieldGetKey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSTextFieldGetKey-Info.plist"; sourceTree = "<group>"; };
+		30CC02F3190F981500549A3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30CC02F5190F981500549A3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30CC02F7190F981500549A3F /* NSTextFieldGetKey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTextFieldGetKey-Prefix.pch"; sourceTree = "<group>"; };
+		30CC02F9190F981500549A3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		30CC02FB190F981500549A3F /* CDYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDYAppDelegate.h; sourceTree = "<group>"; };
+		30CC02FC190F981500549A3F /* CDYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDYAppDelegate.m; sourceTree = "<group>"; };
+		30CC02FF190F981500549A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		30CC0301190F981500549A3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30CC0308190F981600549A3F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30CC02E3190F981500549A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CC02EA190F981500549A3F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30CC02DD190F981500549A3F = {
+			isa = PBXGroup;
+			children = (
+				30CC02EF190F981500549A3F /* NSTextFieldGetKey */,
+				30CC02E8190F981500549A3F /* Frameworks */,
+				30CC02E7190F981500549A3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30CC02E7190F981500549A3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30CC02E6190F981500549A3F /* NSTextFieldGetKey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30CC02E8190F981500549A3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30CC02E9190F981500549A3F /* Cocoa.framework */,
+				30CC0308190F981600549A3F /* XCTest.framework */,
+				30CC02EB190F981500549A3F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30CC02EB190F981500549A3F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30CC02EC190F981500549A3F /* AppKit.framework */,
+				30CC02ED190F981500549A3F /* CoreData.framework */,
+				30CC02EE190F981500549A3F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		30CC02EF190F981500549A3F /* NSTextFieldGetKey */ = {
+			isa = PBXGroup;
+			children = (
+				30CC02FB190F981500549A3F /* CDYAppDelegate.h */,
+				30CC02FC190F981500549A3F /* CDYAppDelegate.m */,
+				30CC02FE190F981500549A3F /* MainMenu.xib */,
+				30CC0301190F981500549A3F /* Images.xcassets */,
+				30CC02F0190F981500549A3F /* Supporting Files */,
+			);
+			path = NSTextFieldGetKey;
+			sourceTree = "<group>";
+		};
+		30CC02F0190F981500549A3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30CC02F1190F981500549A3F /* NSTextFieldGetKey-Info.plist */,
+				30CC02F2190F981500549A3F /* InfoPlist.strings */,
+				30CC02F5190F981500549A3F /* main.m */,
+				30CC02F7190F981500549A3F /* NSTextFieldGetKey-Prefix.pch */,
+				30CC02F8190F981500549A3F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30CC02E5190F981500549A3F /* NSTextFieldGetKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CC0317190F981600549A3F /* Build configuration list for PBXNativeTarget "NSTextFieldGetKey" */;
+			buildPhases = (
+				30CC02E2190F981500549A3F /* Sources */,
+				30CC02E3190F981500549A3F /* Frameworks */,
+				30CC02E4190F981500549A3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTextFieldGetKey;
+			productName = NSTextFieldGetKey;
+			productReference = 30CC02E6190F981500549A3F /* NSTextFieldGetKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30CC02DE190F981500549A3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CDY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = danny;
+			};
+			buildConfigurationList = 30CC02E1190F981500549A3F /* Build configuration list for PBXProject "NSTextFieldGetKey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30CC02DD190F981500549A3F;
+			productRefGroup = 30CC02E7190F981500549A3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30CC02E5190F981500549A3F /* NSTextFieldGetKey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30CC02E4190F981500549A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CC02F4190F981500549A3F /* InfoPlist.strings in Resources */,
+				30CC0302190F981500549A3F /* Images.xcassets in Resources */,
+				30CC02FA190F981500549A3F /* Credits.rtf in Resources */,
+				30CC0300190F981500549A3F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30CC02E2190F981500549A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CC02F6190F981500549A3F /* main.m in Sources */,
+				30CC02FD190F981500549A3F /* CDYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30CC02F2190F981500549A3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CC02F3190F981500549A3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30CC02F8190F981500549A3F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CC02F9190F981500549A3F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		30CC02FE190F981500549A3F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CC02FF190F981500549A3F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30CC0315190F981600549A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		30CC0316190F981600549A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		30CC0318190F981600549A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTextFieldGetKey/NSTextFieldGetKey-Prefix.pch";
+				INFOPLIST_FILE = "NSTextFieldGetKey/NSTextFieldGetKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30CC0319190F981600549A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTextFieldGetKey/NSTextFieldGetKey-Prefix.pch";
+				INFOPLIST_FILE = "NSTextFieldGetKey/NSTextFieldGetKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30CC02E1190F981500549A3F /* Build configuration list for PBXProject "NSTextFieldGetKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CC0315190F981600549A3F /* Debug */,
+				30CC0316190F981600549A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CC0317190F981600549A3F /* Build configuration list for PBXNativeTarget "NSTextFieldGetKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CC0318190F981600549A3F /* Debug */,
+				30CC0319190F981600549A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30CC02DE190F981500549A3F /* Project object */;
+}
